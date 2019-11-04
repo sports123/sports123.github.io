@@ -1,0 +1,214 @@
+<HTML>
+<HEAD>
+	<TITLE>Nested links</TITLE>
+	<TABLE border=1>
+	<STYLE type=text/css>
+		nav ul ul {
+display: none;
+}
+
+nav{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+/*specifies that the dropdown will display as 200 px wide blocks */
+nav ul li:hover > ul {
+display: block;
+width: 300px;
+}
+
+/* original look of the menu before mouseover. Also need to specify that it will have a table shape. Border radius controls how round the corners are. */
+nav ul {
+background: #000000; 
+box-shadow: 0px 0px 9px rgba(0,0,0,0.8);
+padding: 0 50px;
+padding-top: 0px;
+border-radius: 0px; 
+list-style: none;
+position: relative;
+display: inline-table;
+}
+
+/*This sets the width, color, alignment of the text for the dropdown items */
+nav ul li {
+padding-top: 40px;
+float: left;
+width: 300px;
+text-align: center;
+color: #FFFFFF;
+}
+
+/*THIS IS WHERE YOU CAN SET THE COLOR FOR THE MAIN MENU ITEM WHEN YOU GO OVER IT */
+nav ul li:hover {
+background: linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -moz-linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -webkit-linear-gradient(top, #4f5964 0%,#000000 40%);
+}
+
+/* color for the link in the menu*/
+nav ul li:hover a {
+color: #fff;
+}
+
+nav ul li a {
+display: block; padding: 25px 40px;
+
+}
+
+nav ul ul {
+background: #5f6975; border-radius: 0px; padding: 0px;
+position: absolute; top: 100%; 
+}
+
+nav ul ul li {
+float: none; 
+border-top: 1px solid #000000; /*borders between menu items */
+border-bottom: 1px solid #000000;
+position: relative;
+padding: 0px 0px; 
+text-align: center;
+}
+
+nav ul ul li a {
+padding: 0px 0px;
+color: #fff;
+} 
+
+/*background color when you go over the links can also change color of text here if you want */
+nav ul ul li a:hover {
+background: #000000;
+background: linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -moz-linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -webkit-linear-gradient(top, #4f5964 0%,#000000 40%);
+}	
+</STYLE>
+</HEAD>
+<BODY bgcolor=yellow>
+<CENTER>
+<NAV>
+	<UL>
+		<LI> Soccer
+			<UL> 
+				<LI><A href=''>Top 10 Soccer player</A></LI>
+				<LI><A href=''>Fifa world cup</A></LI>
+				<LI><A href=''>World Ranking</A></LI>
+				<LI><A href=''>Fifa Women's World Cup</A></LI>
+			</UL>
+		</LI>
+		<LI> Basketball
+			<UL> 
+				<LI><A href=''>Player</A></LI>
+				<LI><A href=''>Games</A></LI>
+				<LI><A href=''>Teams</A></LI>
+				<LI><A href=''>Watch Live</A></LI>
+			</UL>
+		</LI>
+		<LI> Volleyball
+			<UL> 
+				<LI><A href=''>Game</A></LI>
+				<LI><A href=''>World cup stars</A></LI>
+				<LI><A href=''>Beach World cup</A></LI>
+				<LI><A href=''>Girls world cup 2020</A></LI>
+			</UL>
+		</LI>
+		<LI> Baseball
+			<UL> 
+				<LI><A href=''>World Cup</A></LI>
+				<LI><A href=''>Game</A></LI>
+				<LI><A href=''>Team</A></LI>
+				<LI><A href=''>Ranking</A></LI>
+			</UL>
+		</LI>
+	</UL>
+</NAV>
+</CENTER>
+<TABLE>
+	<TR>
+		<TD><LI>Training regulary is very important because it can help you improve your skills and goal. At least train 3 to 6 times a week depending on your goal. For example, if your goal was to stand on the 3 point line and shoot 7 out of 10 balls in the hoop then maybe you can train about 4 times a week.</TD></LI>
+	</TR>
+	<TR>
+		<TD><LI>Set some goals so it can help you be focused on your training. Your goal doesn't need to be anything lofty and it should be something you can achieve. Such as 25 push-ups a day, 50 squats a day...etc.</TD></LI>
+	<TR>
+		<TD><LI>Study movements from professionals so you can learn from them and make new goals to help you improve. For example, focus on how NBA players shoot, dribble and defend</TD></LI>
+	</TR>
+	<TR>
+		<TD><LI>Building confidence can help you reach your goals. If your goals are realistic then you will have the confidence to achieve it. You will perform better in tournaments with confidence because you believe you can do it and win nut if there is too much confidence, then you will just think you are the best on your team but you are actually not.</TD></LI>
+	</TR>
+	<TR>
+		<TD><LI>Be on a healthy diet so you can get fit and healthy. Stick to a diet only about 1,500-2,000 calories a day. This will help you to be fit and if your training includes a lot of sweating and working, then maybe consider a diet that is no more than 2,000 calories.</TD></LI>
+	</TR>
+	<TR>
+		<TD rowspan=4 colspan=1></TD>
+	</TR>
+	<TR>
+		<TD rowspan=3 colspan=2></TD>
+	</TR>
+	<TR>	
+		<TD><IMG src='Images/neymar.png' width=500></IMG></TD>
+		<TD><IMG src='Images/Ronaldo.jpg' width=500></IMG></TD>
+	</TR>
+	<TR>
+		<TD colspan=2></TD>
+		<TD><iframe width="550" height="400" src="https://www.youtube.com/embed/fG3R6jmXrZk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></TD>
+	</TR>
+	<TR>
+		<TD colspan=2></TD>
+		<TD><IMG src='Images/messi.jpg' width=500></IMG></TD>
+	</TR>
+	<TR>
+	<TD rowspan=4 colspan=1></TD>
+	</TR>
+	<TR>
+		<TD rowspan=3 colspan=2></TD>
+	</TR>
+	<TR>	
+		<TD><IMG src='Images/throw.jpg' width=500></IMG></TD>
+		<TD><IMG src='Images/hit.jpeg' width=500></IMG></TD>
+	</TR>
+	<TR>
+		<TD colspan=2></TD>
+		<TD><iframe width="450" height="400" src="https://www.youtube.com/embed/A3Ct8Yxhz_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></TD>
+	</TR>
+	<TR>
+		<TD colspan=2></TD>
+		<TD><IMG src='Images/save.png' width=500></IMG></TD>
+	</TR>
+	<TR>
+		<TD rowspan=4 colspan=1></TD>
+	</TR>
+	<TR>
+		<TD rowspan=3 colspan=2></TD>
+	</TR>
+	<TR>	
+		<TD><IMG src='Images/GS.jpg' width=500></IMG></TD>
+		<TD><IMG src='Images/all star.jpeg' width=500></IMG></TD>
+	</TR>
+	<TR>
+		<TD colspan=2></TD>
+		<TD><iframe width="550" height="330" src="https://www.youtube.com/embed/H1JcEsFU07s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></TD>
+	</TR>
+	<TR>
+		<TD colspan=2></TD>
+		<TD><IMG src='Images/all star 2.jpg' width=500></IMG></TD>
+	</TR>
+	<TR>
+		<TD rowspan=4 colspan=1></TD>
+	</TR>
+	<TR>
+		<TD rowspan=3 colspan=2></TD>
+	</TR>
+	<TR>	
+		<TD><IMG src='Images/spike.jpg'  width=500></IMG></TD>
+		<TD><IMG src='Images/volleyball world cup logo.png' width=500></IMG></TD>
+	</TR>
+	<TR>
+		<TD colspan=2></TD>
+		<TD><iframe width="550" height="330" src="https://www.youtube.com/embed/Wni78jvgGao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></TD>
+	</TR>
+	<TR>
+		<TD colspan=2></TD>
+		<TD><IMG src='Images/volleyball ms.stella.jpg' width=500></IMG></TD>
+	</TR>
+</BODY>
+</HTML>
